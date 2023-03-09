@@ -54,9 +54,11 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    /*
+    help for the following code discovered at: 
+    https://stackoverflow.com/questions/11670874/is-there-an-equivalent-to-background-size-cover-and-contain-for-image-elements
+    */
+    object-fit: cover; /* or object-fit: contain; */
 }
 
 .float-left {
