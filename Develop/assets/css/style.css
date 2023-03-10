@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -20,15 +21,22 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #dcd6d6;
+header h1 { /* credit for the following code goes to: https://fossheim.io/writing/posts/css-text-gradient/*/
+    background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/582752main_sunrise_from_iss-full_full.jpg");
+    background-position: 10px;
+    text-shadow: 2px 2px 2px #ffffff44;
+    filter: hue-rotate(-30deg);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -84,7 +92,6 @@ aside {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
@@ -108,7 +115,6 @@ section article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
